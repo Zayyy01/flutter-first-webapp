@@ -45,7 +45,7 @@ class _MainAppBarState extends State<MainAppBar> {
                     duration: Duration(milliseconds: 500),
                     // The green box must be a child of the AnimatedOpacity widget.
                     child: Text(
-                      'Szoveg1 - beta',
+                      'Photoblog - beta',
                       style: TextStyle(color: Colors.red),
                     ),
                   ),
@@ -128,7 +128,7 @@ class _MainAppBarState extends State<MainAppBar> {
                     },
                     onTap: () {},
                     child: Text(
-                      'Szoveg2 Up',
+                      'Sign Up',
                       style: TextStyle(
                           color:
                               _isHovering[2] ? Colors.blue[100] : Colors.white),
