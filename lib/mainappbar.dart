@@ -38,18 +38,17 @@ class _MainAppBarState extends State<MainAppBar> {
               child: Row(
                 children: [
                   AnimatedOpacity(
-            // If the widget is visible, animate to 0.0 (invisible).
-            // If the widget is hidden, animate to 1.0 (fully visible).
-            opacity: widget.opacity == 1 ? 1.0 : 0.0 ,
-            curve: Curves.easeIn,
-            duration: Duration(milliseconds: 500),
-            // The green box must be a child of the AnimatedOpacity widget.
-            child: Text(
-                    'Photoblog - beta',
-                    style: TextStyle(color: Colors.red),
+                    // If the widget is visible, animate to 0.0 (invisible).
+                    // If the widget is hidden, animate to 1.0 (fully visible).
+                    opacity: widget.opacity == 1 ? 1.0 : 0.0,
+                    curve: Curves.easeIn,
+                    duration: Duration(milliseconds: 500),
+                    // The green box must be a child of the AnimatedOpacity widget.
+                    child: Text(
+                      'Szoveg1 - beta',
+                      style: TextStyle(color: Colors.red),
+                    ),
                   ),
-          ),
-                  
                   Expanded(
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -129,7 +128,7 @@ class _MainAppBarState extends State<MainAppBar> {
                     },
                     onTap: () {},
                     child: Text(
-                      'Sign Up',
+                      'Szoveg2 Up',
                       style: TextStyle(
                           color:
                               _isHovering[2] ? Colors.blue[100] : Colors.white),
